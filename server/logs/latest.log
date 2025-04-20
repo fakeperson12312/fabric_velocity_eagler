@@ -1,0 +1,18 @@
+[03:37:53] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.13
+[03:37:54] [main/WARN]: Mod resolution failed
+[03:37:54] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE easyauth 3.1.11 {depends fabric-api @ [*]}, ROOT_FORCELOAD_SINGLE easyauth 3.1.11]
+[03:37:54] [main/INFO]: Reason: [HARD_DEP easyauth 3.1.11 {depends fabric-api @ [*]}]
+[03:37:54] [main/INFO]: Fix: add [add:fabric-api 1 ([(-∞,∞)])], remove [], replace []
+[03:37:54] [main/ERROR]: Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Install fabric-api, any version.
+More details:
+	 - Mod 'Easy Authentication Mod' (easyauth) 3.1.11 requires any version of fabric-api, which is missing!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.16.13.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:196) ~[fabric-loader-0.16.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:146) ~[fabric-loader-0.16.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.16.13.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.13.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.13.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-mc.1.21.1-loader.0.16.13-launcher.1.0.3.jar:1.0.3]
